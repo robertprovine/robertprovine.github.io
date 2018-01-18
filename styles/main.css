@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Josefin+Sans|Lato');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+main {
+  padding-top: 30px;
+  background-color: #ffffff;
+}
+
+.vineherocolor {
+  color: #dddddd;
+}
+
+.vineh1 {
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.vinesoft {
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.vineport {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.vinetron {
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7) ), url('../images/blocks.jpg');
+  background-position: center;
+  margin: 0;
+  padding-top: 90px;
+}
+
+.vinebodytext {
+  color: #000000;
+  letter-spacing: 1px;
+}
+
+.vinecol {
+  margin-bottom: 10px;
+}
+
+.vinelink {
+  margin-right: 10px;
+}
+
+.vinelinks {
+  margin-bottom: 6px;
+}
+
+.vinehr {
+  border-top: 1px solid #c9c9c9;
+}
+
+.vinefooter {
+  margin-bottom: 50px;
+}
+
+.vineemail {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.vinefooterlogo {
+  width: 30px;
+  height: 30px;
+}
+
+.vinelogos {
+  font-size: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.vinelogocontainer {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+

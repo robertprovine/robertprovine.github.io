@@ -2,36 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Robert Provine</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title></title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/main.css">
+ </head>
 <body>
 
-<div class="main-container">
-  <h1>Robert Provine</h1>
-  <h3>Project Portfolio</h3>
-
-  <h3>Beast</h3>
-  <p>REMAKE OF DAN BAKER’S ORIGINAL 1984 ARCADE GAME, WRITTEN IN JAVASCRIPT TO BE PLAYED IN THE MODERN WEB BROWSER.</p>
-  <p>Move blocks to crush the enemy ‘H’ beasts before they make a meal out of you.</p>
-  <a target="_blank" href="http://zoo-keeper-jury-86482.bitballoon.com/">Link to project</a>
- 
-  <h3>Data-Bot</h3>
-  <p>A DATABASE APPLICATION CREATOR, BUILT WITH NODE AND EXPRESS.</p>
-  <p>Create a database by adding custom tables and columns, then download a generated zip file of a fully functioning MVC Express application, with a folder structure similar to a Rails application.</p>
-  <a target="_blank" href="https://github.com/robertprovine/data-bot">Link to project</a>
- 
-  <h3>Hypertext-Control</h3>
-  <p>A MIDI CONTROLLED MOCKUP WEBSITE BUILDER, BUILT USING WEBPACK, BABEL, AND EXPRESS.</p>
-  <p>Plug in the Behringer X-Touch MIDI controller via usb into the computer, load up the web app and start pushing buttons and turning knobs. In minutes, you'll have yourself a mockup of a fully styled web page that you can download as a starting template before writing a single line of HTML/CSS/JavaScript code.</p>
-  <a target="_blank" href="https://github.com/robertprovine/hypertext-control">Link to project</a>
-
-  <h3>Reaktor Map</h3>
-  <p>A REAKTOR SAMPLE MAP FILE GENERATOR.</p>
-  <p>Generates a Native Instruments Reaktor sample map file, given a particular folder structure and naming conventions. Development involved reverse engineering the Reaktor sample map file format in a hex editor. It is much quicker to use this generator than to create sample maps manually in Reaktor.</p>
-  <a target="_blank" href="https://github.com/robertprovine/reaktormap">Link to project</a>
-</div>
-
-  
+  <div class="jumbotron vinetron jumbotron-fluid text-center">
+    <div class="container">
+      <h1 class="display-4 vineherocolor vineh1">Robert Provine</h1>
+      <p class="vineherocolor vinesoft">Software Engineer</p>
+      <p class="vineherocolor vineport">Project Portfolio</p>
+    </div>
+  </div>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md vinecol">
+          <h3 class="vinebodytext">Beast</h3>
+          <div class="vinelinks">
+            <a class="link vinelink" target="_blank" href="http://zoo-keeper-jury-86482.bitballoon.com/">Live</a>
+            <a class="link vinelink" target="_blank" href="https://github.com/robertprovine/beast">Github</a>
+          </div>
+          <p class="desc vinebodytext">A classic DOS arcade game from the 80's, reprogrammed for the modern web browser. Move blocks to crush the enemy ‘H’ beasts before they make a meal out of you. Challenges included creating algorithms that optimized Beast traversal to catch the player. Written in Javascript.</p>
+        </div>
+        <div class="col-md vinecol">
+          <h3 class="vinebodytext">Data-Bot</h3>
+          <div class="vinelinks">
+            <a class="link vinelink" target="_blank" href="https://github.com/robertprovine/data-bot">Github</a>
+          </div>
+          <p class="desc vinebodytext">A CRUD scaffolding application for Express.js and the ejs view templating engine. Create data models using a simple web based UI, then download a generated Express.js/ejs project folder that follows a MVC design pattern similar to a Ruby on Rails application. Written in ES6 using Webpack/Babel.</p>
+        </div>
+        <div class="col-md vinecol">
+          <h3 class="vinebodytext">Reaktormap</h3>
+          <div class="vinelinks">
+            <a class="link vinelink" target="_blank" href="https://github.com/robertprovine/reaktormap">Github</a>
+          </div>
+          <p class="desc vinebodytext">A sample map (.map) generator for Native Instruments Reaktor Software. This is a tool to make loading sample maps into drum-machines much easier. The file format specification for Reaktor sample maps is proprietary, so reverse engineering of the format was necessary using a hex editor. Written in C/C++ using POSIX system calls</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md vinecol">
+          <h3 class="vinebodytext">Hypertext-Control</h3>
+          <div class="vinelinks">
+            <a class="link vinelink" target="_blank" href="https://github.com/robertprovine/hypertext-control">Github</a>
+          </div>
+          <p class="desc vinebodytext">A MIDI controlled HTML/CSS generator. Plug in the Behringer X-Touch MIDI controller via USB, load up the web app and start pushing buttons and turning knobs to change CSS styles. In minutes, you'll have a mockup webpage.</p>
+        </div>
+        <div class="col-md vinecol">
+        </div>
+        <div class="col-md vinecol">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr class="vinehr" />
+    </div>
+  </main>
+  <footer class="vinefooter">
+    <div class="vinelogos">
+      <div class="vinelogocontainer">
+        <a href="mailto:robertprovine@gmail.com"><img class="vinefooterlogo" src="./images/E-mail-Icon-1024x1024.png" alt="Email" /></a>
+      </div>
+      <div class="vinelogocontainer">
+        <a target="_blank" href="https://www.linkedin.com/in/robertprovine/"><img class="vinefooterlogo" src="./images/linkedin-icon-logo-FBADE03110-seeklogo.com.png" alt="Linked-in" /></a>
+      </div>
+      <div class="vinelogocontainer">
+        <a target="_blank" href="https://github.com/robertprovine"><img class="vinefooterlogo" src="./images/if_github_291716.png" alt="Github" /></a>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery, Popper.js, Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 </body>
 </html>
